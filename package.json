@@ -3,7 +3,7 @@
     "displayName": "vscodeunitycollab",
     "description": "Unity Collaborate source control in vscode",
     "version": "0.0.1",
-    "publisher": "grownith",
+    "publisher": "thainayu",
     "engines": {
         "vscode": "^1.22.0"
     },
@@ -14,14 +14,6 @@
         "workspaceContains:Library/Collab"
     ],
     "main": "./out/extension",
-    "contributes": {
-        "commands": [
-            {
-                "command": "extension.sayHello",
-                "title": "Hello World"
-            }
-        ]
-    },
     "scripts": {
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
@@ -35,5 +27,9 @@
         "tslint": "^5.8.0",
         "@types/node": "^7.0.43",
         "@types/mocha": "^2.2.42"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Thaina/vscodeunitycollab"
     }
 }
